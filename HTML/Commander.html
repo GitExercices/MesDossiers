@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title>commander en ligne </title>
+</head>
+<body>
+     <h2>COMMANDER EN LIGNE.SN</h2>
+     <form method="POST" action="formulaire.html">
+     	<fieldset>
+     		<legend>Coordonnées</legend>
+     		<p><label for="name"> NOM:</label><br></p>
+			<input type="text" name="nom" id="nom" required>
+			<p><label for="PRENOM"> PRENOM:</label><br></p>
+			<input type="text" name="prenom" id="prenom" required>
+			<p><label for="nomber">Date de naissance:</label><br></p>
+			<input type="date">
+			<p><label for="number"> telephone:</label><br></p>
+			<input type="number" name="number" id="number" required>
+			 <p><label for="adress"> Adress:</label><br></p>
+			<input type="adress" name="adress" id="adress" required>
+			<br><b>Choisir un restaurant:</b><br>
+			<select name="restaurant"><br>
+				<option value="MCdo">MCdo</option>
+				<option value="KFC">KFC</option>
+				<option value="Mere Thiaba">Mere Thiaba</option>
+				<option value="Maman Ndeye">Maman Ndeye</option>
+				
+			</select>
+     	</fieldset>
+     </form>
+     <form method="POST" action="formulaire.html">
+     	<fieldset>
+     		<legend>Vos gouts</legend>
+     		<div id="col">
+     		<p>
+     			<input type="radio" name="commande" id="commande">
+     			<label for="commande"> Burger</label>
+     			<input type="radio" name="commande" id="commande">
+     			<label for="commande"> thiepp</label>
+     			<input type="radio" name="commande" id="commande">
+     			<label for="commande"> pizza</label>
+     			<input type="radio" name="commande" id="commande">
+     			<label for="commande"> chanduitsh</label>
+     		</p>
+     		<p>
+     			<label for="precissions">Precissez votre commande</label>
+     			<textarea name="precisions" cols="40" rows="4" id="precisions"></textarea>
+     		</p>
+     	</fieldset>
+     	
+     </form>
+
+</body>
+</html>

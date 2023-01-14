@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LIONNE DU DIGITAL</title>
+</head>
+<body>
+<h2><em>LIONNE DU DIGITAL</em></h2>
+<p>
+<h4>Nous representons toutes <mark>FEMMES</mark> et feminiser le monde du DIGITAL.</h4>
+<h4>VOULEZ VOUS INTEGRER</h4>
+si OUI, saisir votre NOM:<br>
+<input type="TEST" name="Mon_Nom" />
+<br>votre date de naissance
+<form method="post" action="teste.html">
+	<input type="date" >
+	<br><input type="submit">
+	<br>Donner votre niveau en informatique:
+	<br><input type="number" step="15" min="0" max="20" >
+	<br><h5>Votre Région:</h5>
+	<input type="checkbox" name="region" value="Maths">Dakar<br>
+    <input type="checkbox" name="region" value="Maths">Thies<br>
+    <input type="checkbox" name="region" value="Maths">st_louis<br>
+    <input type="checkbox" name="region" value="Maths">Zinguinsor<br>
+    <input type="checkbox" name="region" value="Maths">Matam<br>
+    <input type="checkbox" name="region" value="Maths">Kaolack<br>
+    <input type="checkbox" name="region" value="Maths">Tamba<br>
+    <input type="checkbox" name="region" value="Maths">Louga<br>
+    <input type="checkbox" name="region" value="Maths">Sédiou<br>
+    <input type="checkbox" name="region" value="Maths">Fatick<br>
+    <input type="checkbox" name="region" value="Maths">Diourbel<br>
+    <input type="checkbox" name="region" value="Maths">Dakar<br>
+    <input type="checkbox" name="region" value="Maths">Dakar<br>
+    <input type="checkbox" name="region" value="Maths">Dakar<br>
+</form>
+<form method="POST" action="formulaire.html">
+	<textarea name="message" cols="50" rows="10"></textarea><br/>
+	<input type="submit" name="valider">
+
+	<br><b>Vous ètes de quelle nationalitè?</b>
+	<select name="nationalitè">
+		<option value="Senegal">Sénégalaise</option>
+		<option value="Gambie">Gambienne</option>
+		<option value="Mali">Malienne</option>
+		<option value="Mauritanie">Mauritaninienne</option>
+		<option value="Guinnée">Guinnéen</option>
+		<option value="Afrique du Sud">Sud africaine</option>
+	</select>
+</form><br>
+<form method="POST" action="formulaire.html">
+	<fieldset>
+		<legend>Vos coordonnées</legend>
+		<label for="nom">Quel est votre nom?</label>
+		<input type="text" name="nom" id="nom" required/>
+		<label for="prénom">Quel est votre prénom?</label>
+		<input type="text" name="prénom" id="prenom" required/>
+		<label for="e-mail">Quel est votre e-mail?</label>
+		<input type="text" name="email" id="email" autofocus />
+	</fieldset>
+
+	<fieldset>
+		<legend>Niveau d'étude:</legend>
+		<p>
+			Quel est votre niveau d'étude:
+			<input type="radio" name="niveau" value="licence1" id="licence1" />
+			<label for="licence1">Licence 1</label>
+			<input type="radio" name="niveau" value="licence2" id="licence2" />
+			<label for="autres">Autre</label>
+			<input type="radio" name="niveau" value="Autre" id="autres" />
+			<label for="licence2">Licence 2</label>
+		</p>
+		<p>
+			<label for="precisions">Si autres, veuillez préciser:</label>
+			<textarea name="precisions" cols="40" rows="4" id="precisions"></textarea>
+		</p>
+	</fieldset>
+	
+</form>
+</p>
+</body>
+</html>

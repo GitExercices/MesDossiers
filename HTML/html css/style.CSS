@@ -1,0 +1,8 @@
+h1{
+	text-transform: uppercase;/*text-transform upper case permet de mettre tous en majuscule*/
+	letter-spacing: 5PX;/*espacement des lettre en pixel*/
+	text-transform: center;/*mettre au centre*/
+	font-size: 2.5rem;/*pour la police*/
+	font-family: serif;/*changer la police*/
+	text-shadow: 1px 2px 1px #ab0f01;
+}

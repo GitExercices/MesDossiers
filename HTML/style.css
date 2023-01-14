@@ -1,0 +1,39 @@
+body {
+	background-color: mistyrose;
+}
+h1 {
+	text-align: center;
+	background-color: rosybrown;
+	border: thick;
+	color: black;
+	margin: 0;^,,
+	padding: 25px;
+	font-family: fantasy;
+}
+
+#col {
+	column-count: 3;
+}
+
+h2 {
+	color: black;
+}
+input {
+	border-style: solid;
+	border-bottom: solid;
+	padding: 10px;
+}
+fieldset {
+	border-bottom: lavenderblush;
+	border: solid;
+}
+textarea {
+	border: solid;
+}
+div {
+	border-style: dashed;
+	margin: auto;
+}
+input [type=submit] {
+	background-color: rosybrown;
+}

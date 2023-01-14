@@ -1,0 +1,58 @@
+body{
+	background-image: url(monimage2.jpg);
+}
+.content{
+	border: solid black 2px;
+	border-radius: 800px;
+	width: 800px;
+	text-align: center;
+	background-color: black;
+}
+.color{
+	color: white;
+}
+h1{
+	font-family: Algerian;
+	color: white;
+}
+.zey{
+	color: white;
+	font-family: Georgia;
+}
+.lien{
+	margin-left: 2px;
+}
+.c{
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	width: 800px;
+}
+.col{
+	color: white;
+}
+.H1{
+	text-align: center;
+	color: white;
+}
+img{
+	width: 150px;
+	height:150px;
+	color: white;
+	display: flex ;
+
+}
+.p{
+	color: white;
+	text-align: center;
+}
+.exp{
+	color: white;
+}
+ul{
+	color: white;
+}
+.tbl{
+	color: white;
+
+}

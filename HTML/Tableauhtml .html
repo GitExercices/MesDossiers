@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>formulaire</title>
+</head>
+<body>
+	<h2 align="center">Formulaire du Candidat</h2>
+<table border="1" bgcolor="lightpink">
+		<tr>
+		<td><label for="name">Prénom: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td><input type="text" name="Prénom" id="Prénom" required></td>
+		<td><label for="name">Nom: </label></td>
+		<td><input type="text" name="Nom"></td>
+		</tr>
+	<tr>
+		<td><label for="name">Date de naissance: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td><input type="date" name="Date de naissance" id="Date" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td><label>Age: </label></td>
+		<td><input type="number" name="Age" max="25" min="15"></td>
+		<tr>
+		<td><label>Email: </label></td>
+		<td><input type="text" name="Email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td><label>Mot de Passe: </label></td>
+		<td><input type="password" name="Mot de Passe"></td><br>
+	</tr>
+	<tr >
+		<td>
+		<fieldset><legend>Genre</legend>	
+			<label>M</label>
+			<input type="radio" name="M">
+			<label>F</label>
+			<input type="radio" name="F">
+		</fieldset>
+		</td>
+		<td> </td>
+		<td><label>Région: </label></td>
+
+		<td>		
+			<select>
+			<option>Dakar</option>
+			<option>Thiés</option>
+			<option>Diourbel</option>
+			<option>Tamba</option>
+			<option>Sedhiou</option>
+        </td>
+		</select>
+	</tr>
+	<tr>
+		<td>
+	<fieldset>
+		<legend>Choisissez votre filiére</legend>
+		<label>APD</label>
+		<input type="checkbox" name="metier">
+		<label>ABD</label>
+		<input type="checkbox" name="metier">
+		<label>DBE</label>
+		<input type="checkbox" name="metier">
+		<label>DFE</label>
+		<input type="checkbox" name="metier">
+		<label>RIOT</label>
+		<input type="checkbox" name="metier">
+		<label>SSC</label>
+		<input type="checkbox" name="metier">
+	</fieldset>
+	</td>
+	<td rowspan="3"><img src="C:\Users\DELL\Pictures\Saved Pictures\Capture information.PNG" height="200" width="200"></td>
+	
+	</tr>
+	<tr>
+		<td>
+			<label><fieldset>Pourquoi voulez vous etre orienté à l'isep de Diamdiadio?</fieldset></label><br>
+			<textarea></textarea>
+			<input type="submit" name="send">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<fieldset>
+				<legend>Promotion</legend>
+				<label>promo2</label>
+				<input type="radio" name="promo1">
+				<label>promo3</label>
+			    <input type="radio" name="promo2">
+			</fieldset>
+		</td>
+	</tr>
+		</table>
+</body>
+</html>

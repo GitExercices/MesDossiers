@@ -1,0 +1,23 @@
+body{
+	 background-image: url("monimage2.jpg") ;
+	 text-align: center;
+
+}
+.h1{
+	font-family: Algerian;
+	align-items: center;
+	color: white;
+
+}
+.h{
+	font-family: Georgia;
+	color: white;
+}
+p{
+	color: white;
+}
+table{
+	align-items: center;
+	color: white; 
+}
+

@@ -1,0 +1,17 @@
+body{
+	background-image: url(nabou.jpg);
+	/*background-color: moccasin;*/
+}
+.contenir{
+	border: solid maroon 2px;
+	border-radius: 10px;
+	margin-top:50px ;
+	margin-left: 450px;
+	width: 500px;
+	box-shadow: 10px 10px 10px;
+	text-align: center;
+}
+.input1,.input2{
+	margin-left: 70px;
+	width: 150px;
+}
